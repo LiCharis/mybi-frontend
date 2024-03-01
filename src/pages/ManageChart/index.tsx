@@ -190,7 +190,7 @@ const ManageChart: React.FC = () => {
                     <br />
                     <Text>{item.genResult}</Text>
                     <div style={{ marginBottom: 16 }} />
-                    <ReactEChart option={JSON.parse(item.genChart)} />
+                    <ReactEChart option={JSON.parse(item?.genChart)} />
                   </>
                 ) : item.genChart? (
                   <>

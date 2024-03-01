@@ -179,6 +179,7 @@ declare namespace API {
     chartType?: string;
     goal?: string;
     name?: string;
+    strategy?:string;
   };
 
   type generateByAiThreadPoolUsingPOSTParams = {
