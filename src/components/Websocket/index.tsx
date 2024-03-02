@@ -7,7 +7,7 @@ const WebSocketComponent = (userId: any) => {
     const id = userId.userId;
     console.log(id)
     // 创建WebSocket连接
-    const url = 'ws://127.0.0.1:8125/api/websocket/'+id
+    const url = 'wss://101.43.233.52:8125/api/websocket/'+id
     console.log(url)
     const socket = new WebSocket(url);
 

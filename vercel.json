@@ -3,6 +3,10 @@
     {
       "src": "/api/(.*)",
       "dest": "http://101.43.233.52:8125/api/$1"
+    },
+    {
+      "src": "/api/websocket/(.*)",
+      "dest": "ws://101.43.233.52:8125/api/websocket/$1"
     }
   ]
 }
