@@ -7,6 +7,11 @@
     {
       "src": "/api/websocket/(.*)",
       "dest": "ws://101.43.233.52:8125/api/websocket/$1"
+    },
+    {
+      "src": "/[^.]+",
+      "dest": "/",
+      "status": 200
     }
   ]
 }

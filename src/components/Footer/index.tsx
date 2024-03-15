@@ -20,8 +20,8 @@ const Footer: React.FC = () => {
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
         {
-          key: '我的智能BI',
-          title: '我的智能BI',
+          key: '⻋辆噪声数据分析平台',
+          title: '⻋辆噪声数据分析平台',
           href: 'https://pro.ant.design',
           blankTarget: true,
         },
@@ -32,8 +32,8 @@ const Footer: React.FC = () => {
           blankTarget: true,
         },
         {
-          key: '我的智能BI',
-          title: '我的智能BI',
+          key: '⻋辆噪声数据分析平台',
+          title: '⻋辆噪声数据分析平台',
           href: 'https://ant.design',
           blankTarget: true,
         },

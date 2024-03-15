@@ -163,7 +163,7 @@ const Login: React.FC = () => {
             maxWidth: '75vw',
           }}
           logo={<img alt="logo" src="/logo.svg" />}
-          title="我的智能BI"
+          title="⻋辆噪声数据分析平台"
           subTitle={intl.formatMessage({ id: ' ' })}
           initialValues={{
             autoLogin: true,
