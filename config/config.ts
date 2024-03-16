@@ -76,7 +76,7 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: '⻋辆噪声数据分析平台',
+  title: '车辆噪声数据分析平台',
   layout: {
     locale: true,
     ...defaultSettings,
